@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#skills{
+    margin-top: 50px;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-card{
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    min-width: 100px;
+}
+
+.skill-card:hover {
+    transform: translateY(-3px);
+    transition: 0.2s;
+}
