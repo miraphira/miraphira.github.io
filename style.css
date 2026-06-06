@@ -4,6 +4,29 @@ body {
     margin-top: 50px;
 }
 
+#hero{
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 #skills{
     margin-top: 50px;
 }
