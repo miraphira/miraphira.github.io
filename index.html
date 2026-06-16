@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
     <head>
         <title>Ifa Portfolio</title>
         <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     </head>
 
     <body>
 
         <div class="container">
-            <nav>
-                <h2>Intan Fadhilah's Portfolio</h2>
-            </nav>
-
             <section id="hero">
                 <h1>Halo, I'm Intan!</h1>
                 <p>Agricultural Engineering Student & Agricultural Technology Enthusiast</p>
@@ -25,47 +33,62 @@
             <section id="about">
                 <h2>About Me</h2>
                 <p>
-                    I am interested in technology implementation of agriculture, and I'd love to learn urban farming!
+                    I am interested in the application of technology in agriculture, and I'd love to learn to implement it on urban farming!
                 </p>
+                <p>
+                    I enjoy learning about programming, automation systems, and data-driven solutions to solve problems.
+                </p>
+                <p>Currently completing my studies in Agricultural Engineering at Padjadjaran University. My thesis focuses on redesigning DSS application services using open source software</p>
             </section>
 
             <section id="skills">
                 <h2>Skills</h2>
-                <ul>
-                    <li>Python</li>
-                    <li>MySQL</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Arduino IDE</li>
-                </ul>
+                <div class="skills-grid">
+                    <div class="skill-card">Python</div>
+                    <div class="skill-card">MySQL</div>
+                    <div class="skill-card">HTML</div>
+                    <div class="skill-card">CSS</div>
+                    <div class="skill-card">Arduino</div>
+                </div>
             </section>
 
             <section id="projects">
                 <h2>Projects</h2>
                 
-                <div>
-                    <h3>Automatic Pet Water Dispense</h3>
-                    <p>Pet water automation using ESP32.</p>
-                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Automatic Pet Water Dispenser</h3>
+                        <p>
+                            A personal project that automates pet water dispensing using ESP32 and Thinger.io dashboard.
+                        </p>
+                        <span class="status">Completed</span>
+                    </div>
 
-                <div>
-                    <h3>Wastewater pH Monitoring</h3>
-                    <p>Industrial wastewater pH monitoring using NodeMCU.</p>
-                </div>
+                    <div class="project-card">
+                        <h3>Wastewater pH Monitoring</h3>
+                        <p>
+                            An industrial internship project at PT Pupuk Kalimantan Timur, focused on real-time monitoring wastewater pH and other sensors related using NodeMCU and Thinger.io dashboard.
+                        </p>
+                        <span class="status">Completed</span>
+                    </div>
 
-                <div>
-                    <h3>Moi Health Tracker</h3>
-                    <p>Pet health monitoring project.</p>
+                    <div class="project-card">
+                        <h3>Pet Health Tracker</h3>
+                        <p>
+                            A personal project focused on web application (CRUD) for pet health tracking using HTML, CSS, and JavaScript.
+                        </p>
+                        <span class="status">In Progress</span>
+                    </div>
                 </div>
             </section>
 
             <section id="contact">
                 <h2>Contact Me</h2>
-
-                <p>Email: intan20008@mail.unpad.ac.id</p>
-                <p>Linkedin: intan-fadhilah</p>
-                <p>GitHub: miraphira</p>
-            </section>
+                <p>
+                    Email: intan20008@mail.unpad.ac.id <br>
+                    WhatsApp: 081291883156
+                </p>
+            </section><br>
 
             <footer>
                 <p>© 2026 Intan Fadhilah</p>
