@@ -79,7 +79,6 @@
                             <p>
                                 An industrial internship project at PT Pupuk Kalimantan Timur, focused on real-time monitoring wastewater pH and other sensors related.
                             </p>
-                            <span class="status">Completed</span>
                             <div class="tech-stack">
                                 <span>IoT</span>
                                 <span>NodeMCU ESP8266</span>
@@ -88,6 +87,15 @@
                                 <span>C++</span>
                                 <span>DS18B20</span>
                                 <span>pH Sensor</span>
+                            </div>
+                            <div class="project-actions">
+                                <a 
+                                    href="#"
+                                    class="detail-btn"
+                                    data-modal="wastewaterphModal">
+                                    Detail
+                                </a>
+                                <span class="status">Completed</span>
                             </div>
                         </div>
 
@@ -112,20 +120,26 @@
                             <p>
                                 Personal finance application with machine learning-based savings recommendations and spending anomaly detection. 
                             </p>
-                            <span class="status">Completed</span>
-                            <div class="status">
-                                <a href="https://youtu.be/G7uejl3r_B4?si=cbw2HBYrIvFGosD8" target="_blank">
-                                    Watch
-                                </a>
-                            </div>
                             <div class="tech-stack">
                                 <span>Python</span>
                                 <span>TensorFlow</span>
                                 <span>TFLite</span>
                             </div>
-                            <p class="project-note">
-                                * Live demo unavailable (hosting expired).
-                            </p>
+                            <div class="project-actions">
+                                <a 
+                                    href="#"
+                                    class="detail-btn"
+                                    data-modal="ezmoneyModal">
+                                    Detail
+                                </a>
+                                <a 
+                                    href="https://youtu.be/G7uejl3r_B4?si=cbw2HBYrIvFGosD8" 
+                                    target="_blank"
+                                    class="link-btn">
+                                    Watch
+                                </a>
+                                <span class="status">Completed</span>
+                            </div>
                         </div>
 
                         <div class="project-card">
@@ -150,12 +164,20 @@
                             <p>
                                 A personal IoT project that automates pet water dispensing based on scheduled watering times.
                             </p>
-                            <span class="status">Completed</span>
                             <div class="tech-stack">
                                 <span>ESP32</span>
                                 <span>Submersible Pump</span>
                                 <span>Relay Module</span>
                                 <span>Thinger.io</span>
+                            </div>
+                            <div class="project-actions">
+                                <a 
+                                    href="#"
+                                    class="detail-btn"
+                                    data-modal="moidispModal">
+                                    Detail
+                                </a>
+                                <span class="status">Completed</span>
                             </div>
                         </div>
 
@@ -172,12 +194,21 @@
                             <p>
                                 A bachelor thesis project, I contributed to the database redevelopment by redesigning the database and developing Python scripts for data control.
                             </p>
-                            <span class="status">In Progress</span>
                             <div class="tech-stack">
                                 <span>Python</span>
                                 <span>MySQL</span>
                                 <span>Linux</span>
                                 <span>Figma</span>
+                                <span>WA API</span>
+                            </div>
+                            <div class="project-actions">
+                                <a 
+                                    href="#"
+                                    class="detail-btn"
+                                    data-modal="dsspadiModal">
+                                    Detail
+                                </a>
+                                <span class="status">In Progress</span>
                             </div>
                         </div>
 
@@ -196,12 +227,20 @@
                             <p>
                                 A personal project focused on web application (CRUD) for pet health tracking using technology and data.
                             </p>
-                            <span class="status">In Progress</span>
                             <div class="tech-stack">
                                 <span>Python</span>
                                 <span>HTML</span>
                                 <span>CSS</span>
                                 <span>Git</span>
+                            </div>
+                            <div class="project-actions">
+                                <a 
+                                    href="#"
+                                    class="detail-btn"
+                                    data-modal="pettrackerModal">
+                                    Detail
+                                </a>
+                                <span class="status">In Progress</span>
                             </div>
                         </div>
                     </div>
@@ -220,6 +259,133 @@
                 </footer>
             </div>
         </main>
+
+        <div class="modal" id="wastewaterphModal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Wastewater pH Monitoring</h2>
+                <h3>Problem</h3>
+                <p>
+                    Laboratory wastewater must have a safe pH before it is released. 
+                    However, the pH was not monitored continuously, 
+                    making it difficult to check whether it met the required standard. 
+                </p>
+                <h3>Solution</h3>
+                <p>
+                    Developed an IoT-based wastewater monitoring system 
+                    that continuously measures pH levels using a pH sensor 
+                    and sends the data to an online dashboard for real-time monitoring.
+                </p>
+                <h3>Features</h3>
+                <ul>
+                    <li>Real-time pH monitoring</li>
+                    <li>Continuous pH data collection.</li>
+                    <li>Online dashboard visualization using Thinger.io.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="modal" id="ezmoneyModal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>EzMoney</h2>
+                <h3>Problem</h3>
+                <p>
+                    Many people struggle to manage their income, control spending, and build savings. 
+                    Excessive spending often goes unnoticed until it becomes a financial problem.
+                </p>
+                <h3>Solution</h3>
+                <p>
+                    Developed EzMoney, a personal finance management application powered by machine learning 
+                    to help users monitor their expenses, detect unusual spending patterns, 
+                    and receive personalized savings reccomendations.
+                </p>
+                <h3>Features</h3>
+                <ul>
+                    <li>Savings reccomendation based on income</li>
+                    <li>Anomaly detection for excessive spending</li>
+                    <li>Automatic daily reports and statistics</li>
+                </ul>
+                <p class="project-note">
+                    * Live demo unavailable (hosting expired).
+                </p>
+            </div>
+        </div>
+        
+        <div class="modal" id="moidispModal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Automatic Pet Water Dispenser</h2>
+                <h3>Problem</h3>
+                <p>
+                    My cat prefers drinking water poured directly into the feed bowl while eating. 
+                    Refilling the water manually every few hours with a consistent amoung became repetiting 
+                    and time-consuming, especially when I am busy or away from home.
+                </p>
+                <h3>Solution</h3>
+                <p>
+                    Developed a smart pet water dispenser making it more convenient to provide water with a consistent amount.
+                </p>
+                <h3>Features</h3>
+                <ul>
+                    <li>Automatic water dispensing based on schedule</li>
+                    <li>Automatic or manual dispensing mode</li>
+                    <li>Remote control and monitoring with Thinger.io</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="modal" id="dsspadiModal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>DSS Padi Redevelopment</h2>
+                <h3>Problem</h3>
+                <p>
+                    The previouse application relied on proprietary technologies, 
+                    including Windows, VB.NET, and SQL Server, making it costly to maintain, less flexible for development,
+                    and difficult to extend with new features. 
+                </p>
+                <h3>Solution</h3>
+                <p>
+                    Redeveloped the system using open-source technologies by migrating the 
+                    backend to Python, MySQL, and Linux, resulting in a more flexible and maintainable application.
+                </p>
+                <h3>Improvement</h3>
+                <ul>
+                    <li>Migrated from VB.NET to Python</li>
+                    <li>Migrated from SQL Server to MySQL</li>
+                    <li>Migrated deployment from Windows to Linux</li>
+                    <li>Expanded disease prediction beyond blast disease</li>
+                    <li>Added phosphorus and potassium data management</li>
+                    <li>Added WhatsApp notification support</li>
+                    <li>Designed application's user interface</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="modal" id="pettrackerModal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Pet Health Tracker</h2>
+                <h3>Problem</h3>
+                <p>
+                    Pet information is often scattered, 
+                    making it difficult to monitor changes over time.
+                </p>
+                <h3>Solution</h3>
+                <p>
+                    Developed a web-based application to store, organize, and monitor 
+                    pet health records in one place.
+                </p>
+                <h3>Current Features</h3>
+                <ul>
+                    <li>Add health records</li>
+                    <li>View health history</li>
+                    <li>Edit records</li>
+                    <li>Delete records</li>
+                <ul>
+            </div>
+        </div>
 
         <script src="script.js"></script>
     </body>
