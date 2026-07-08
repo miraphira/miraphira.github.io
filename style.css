@@ -235,7 +235,7 @@ footer {
 }
 
 .modal-content {
-    background: white;
+    background: #c4ced6;
     
     width: 90%;
     max-width: 1000px;
@@ -244,12 +244,39 @@ footer {
     padding: 25px;
 
     border-radius: 10px;
+
+    position: relative;
+}
+
+.modal-content ul {
+    padding-left: 20px;
+}
+
+.modal-content h4 {
+    margin: 15px 0 10px 0;
 }
 
 .close-btn {
-    float: right;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+
+    width: 25px;
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     font-size: 20px;
     cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.close-btn:hover {
+    background-color: #c4ced6;
+    border-radius: 40px;
 }
 
 .link-btn,
@@ -263,6 +290,14 @@ footer {
     font-weight: 700;
     line-height: normal;
     box-shadow: none;
+
+    transition: 0.2;
+}
+
+.link-btn:hover, 
+.detail-btn:hover{
+    background-color: #8a8181;
+    color: #dee5eb;
 }
 
 .modal-content h2{
@@ -283,4 +318,35 @@ footer {
 
 .modal-content li{
     margin-bottom: 6px;
+}
+
+.experience-card{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+    padding: 5px;
+    
+    border-bottom: 1px solid #8a8181;
+}
+
+.experience-card:last-child{
+    border-bottom: none;
+}
+
+.experience-left h3{
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.experience-left p{
+    color: #524d4d;
+    font-size: 0.9rem;
+}
+
+.experience-date{
+    color: #524d4d;
+    font-size: 0.9rem;
+    font-weight: 600;
+    white-space: nowrap;
 }
