@@ -24,6 +24,7 @@ nav a {
 
 nav a:hover{
     background: #c4ced6;
+    transition:0.2s;
 }
 
 .container {
@@ -39,6 +40,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
@@ -46,12 +48,6 @@ p {
     font-size: 1rem;
     color: #555;
     margin-bottom: 10px;
-}
-
-head {
-    line-height: 50px;
-    padding: 100px;
-    color: #524d4d;
 }
 
 body {
@@ -95,7 +91,6 @@ footer {
 
 #skills{
     justify-content: center;
-    margin-bottom: 30px;
 }
 
 .skills-grid{
@@ -291,7 +286,7 @@ footer {
     line-height: normal;
     box-shadow: none;
 
-    transition: 0.2;
+    transition: 0.2s;
 }
 
 .link-btn:hover, 
@@ -323,9 +318,9 @@ footer {
 .experience-card{
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     
-    padding: 5px;
+    padding: 20px;
     
     border-bottom: 1px solid #8a8181;
 }
