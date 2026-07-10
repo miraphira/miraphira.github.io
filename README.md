@@ -1,10 +1,16 @@
 # Intan Fadhilah's Portfolio
 
-Live Demo:
-https://miraphira.github.io/
+Personal portfolio website for my current and completed projects, skills, and experience.
 
-Personal portfolio website.
-I built it with HTML, CSS, and JavaScript.
+## Tech Stack
+
+- HTML
+- CSS 
+- JavaScript
+
+## Live Demo:
+
+https://miraphira.github.io/
 
 ## Features
 
@@ -12,8 +18,5 @@ I built it with HTML, CSS, and JavaScript.
 - About Me
 - Skills
 - Projects
-- Contact Section
-
-## Author
-
-Intan
+- Experience
+- Contact
