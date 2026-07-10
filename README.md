@@ -20,3 +20,8 @@ https://miraphira.github.io/
 - Projects
 - Experience
 - Contact
+
+## Preview
+
+![Portfolio Preview](assets/images/portfoliov1_screenshot.png)
+
